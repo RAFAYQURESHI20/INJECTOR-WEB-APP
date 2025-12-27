@@ -1,73 +1,158 @@
-# Welcome to your Lovable project
+# 🔍 SQL Injection Testing Lab
 
-## Project info
+An interactive GUI application for learning and practicing SQL injection techniques with educational demos and hands-on exercises. This educational tool provides a safe environment to understand SQL injection vulnerabilities and defensive techniques.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Live Demo
 
-## How can I edit this code?
+**Repository**: [https://github.com/RAFAYQURESHI20/INJECTOR-WEB-APP](https://github.com/RAFAYQURESHI20/INJECTOR-WEB-APP)
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- **Interactive SQL Injection Lab** - Practice SQL injection techniques in a safe environment
+- **Educational Demos** - Step-by-step tutorials and explanations
+- **GUI Interface** - User-friendly web-based interface
+- **Multiple Scenarios** - Various vulnerability types and attack vectors
+- **Real-time Feedback** - Immediate results and explanations
+- **Responsive Design** - Works on desktop and mobile devices
+- **Safe Learning Environment** - Isolated testing environment
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React 18** - Modern UI framework
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Beautiful and accessible UI components
+- **Framer Motion** - Smooth animations
+- **Lucide React** - Modern icon library
 
-**Use your preferred IDE**
+## 📸 Screenshots
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Main Interface
+![Main Interface](screenshots/homepage.png)
+*Clean, modern interface for easy navigation*
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### SQL Injection Lab
+![SQL Lab](screenshots/sql-lab-interface.png)
+*Interactive testing environment for practicing SQL injection techniques*
 
-Follow these steps:
+### Demo Page
+![Demo](screenshots/demo-page.png)
+*Educational demonstrations and tutorials*
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Features Page
+![Features](screenshots/features-page.png)
+*Comprehensive overview of application capabilities*
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Prerequisites
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+- Node.js (version 18 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/RAFAYQURESHI20/INJECTOR-WEB-APP.git
+   cd INJECTOR-WEB-APP
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**:
+   Navigate to `http://localhost:8081`
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## 📁 Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── CodeRain.tsx    # Animated background
+│   ├── Hero.tsx        # Landing page hero section
+│   ├── Navbar.tsx      # Navigation component
+│   ├── SQLDemo.tsx     # SQL demonstration component
+│   └── SQLInjectionLab.tsx # Main lab interface
+├── pages/              # Application pages
+│   ├── Index.tsx       # Homepage
+│   ├── Demo.tsx        # Demo page
+│   ├── SQLInjectionLab.tsx # Lab page
+│   └── ...
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── App.tsx             # Main application component
+```
 
-**Use GitHub Codespaces**
+## 🎯 Usage
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### SQL Injection Learning Lab
 
-## What technologies are used for this project?
+1. **Start the Application**: Run `npm run dev` and navigate to the lab section
+2. **Select Vulnerability Type**: Choose from various SQL injection scenarios
+3. **Practice Techniques**: Use the interactive interface to test different injection methods
+4. **Learn Defenses**: Understand how to prevent SQL injection vulnerabilities
+5. **Track Progress**: Monitor your learning progress through the interface
 
-This project is built with:
+### Educational Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Interactive Tutorials**: Step-by-step guides for different injection techniques
+- **Real-world Examples**: Practical scenarios based on common vulnerabilities
+- **Explanation System**: Detailed explanations for each technique
+- **Safe Environment**: Isolated testing without affecting real systems
 
-## How can I deploy this project?
+## 🔒 Educational Purpose
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+This application is designed **exclusively for educational purposes** to help developers and security professionals understand SQL injection vulnerabilities. It should only be used in controlled environments and for learning about web application security.
 
-## Can I connect a custom domain to my Lovable project?
+**⚠️ Important Notice**: 
+- Use only in isolated testing environments
+- Never test against systems you don't own
+- Respect ethical hacking guidelines and laws
+- This tool is for educational and authorized security testing only
 
-Yes, you can!
+## 🤝 Contributing
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Built with [shadcn/ui](https://ui.shadcn.com) components
+- Inspired by educational security training platforms
+- Community contributions and feedback
+
+## 📞 Support
+
+If you encounter any issues or have questions:
+
+1. Check the [Issues](https://github.com/RAFAYQURESHI20/INJECTOR-WEB-APP/issues) page
+2. Create a new issue with detailed information
+3. Contact: batch22.ai.010@gmail.com
+
+---
+
+**Made with ❤️ for cybersecurity education**
